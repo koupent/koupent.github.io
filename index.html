@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plarise - 筋トレ記録アプリ</title>
+  <title>koupent</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -11,51 +11,81 @@
       background: #f5f5f7;
       color: #1d1d1f;
       min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
-    .container {
+    .header {
       text-align: center;
-      padding: 2rem;
-      max-width: 600px;
+      padding: 4rem 2rem 2rem;
     }
-    h1 {
+    .header h1 {
       font-size: 2.5rem;
       font-weight: 700;
       margin-bottom: 0.5rem;
     }
-    .tagline {
-      font-size: 1.2rem;
+    .header p {
+      font-size: 1.1rem;
       color: #6e6e73;
-      margin-bottom: 2rem;
     }
-    .description {
+    .apps {
+      max-width: 720px;
+      margin: 2rem auto;
+      padding: 0 1.5rem 4rem;
+    }
+    .apps h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #6e6e73;
+      margin-bottom: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      margin-bottom: 1.5rem;
+    }
+    .card h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+    .card .tagline {
       font-size: 1rem;
+      color: #6e6e73;
+      margin-bottom: 1rem;
+    }
+    .card .description {
+      font-size: 0.95rem;
       line-height: 1.8;
       color: #424245;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
-    .badge a {
+    .card .badge a {
       display: inline-block;
     }
-    .badge img {
-      height: 60px;
+    .card .badge img {
+      height: 56px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Plarise</h1>
-    <p class="tagline">シンプルな筋トレ記録アプリ</p>
-    <p class="description">
-      日々のトレーニングを記録・管理できるアプリです。<br>
-      種目・重量・回数・セット数を簡単に記録し、トレーニングの進捗を振り返ることができます。
-    </p>
-    <div class="badge">
-      <a href="https://play.google.com/store/apps/details?id=com.koupent.plarise">
-        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png" alt="Google Play で手に入れよう">
-      </a>
+  <div class="header">
+    <h1>koupent</h1>
+    <p>日常を便利にするアプリを開発しています</p>
+  </div>
+  <div class="apps">
+    <h2>Apps</h2>
+    <div class="card">
+      <h3>Plarise</h3>
+      <p class="tagline">シンプルな筋トレ記録アプリ</p>
+      <p class="description">
+        日々のトレーニングを記録・管理できるアプリです。<br>
+        種目・重量・回数・セット数を簡単に記録し、トレーニングの進捗を振り返ることができます。
+      </p>
+      <div class="badge">
+        <a href="https://play.google.com/store/apps/details?id=com.koupent.plarise">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png" alt="Google Play で手に入れよう">
+        </a>
+      </div>
     </div>
   </div>
 </body>
